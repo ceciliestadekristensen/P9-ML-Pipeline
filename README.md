@@ -1,12 +1,12 @@
 # Machine Learning Prediction Model (P9 Project)
 
-A sequence-based machine learning approach for intelligent data entry in PLM systems.
+A sequence-based machine learning system for intelligent data entry support in PLM systems.
 
 ## Overview
 
 This project was developed in collaboration with Bluestar PLM and focuses on automating data entry in engineering systems.
 
-The goal was to predict relevant values based on existing data, reducing manual input and improving efficiency.
+The system predicts relevant values based on existing data, reducing manual input and improving efficiency.
 
 ## Problem Context
 
@@ -24,8 +24,8 @@ The system was designed to:
 
 * Python
 * XGBoost
-* Pandas / NumPy
-* Data preprocessing & encoding
+* Pandas & NumPy
+* Data preprocessing & feature engineering
 
 ## Machine Learning Pipeline
 
@@ -52,11 +52,11 @@ The project was developed using an iterative approach with continuous feedback f
 
 ## My Contribution
 
-I contributed to several key parts of the system:
+I contributed to key parts of the system, including:
 
 * Implementation of label encoding
 * Development of the machine learning pipeline
-* Integration of XGBoost model
+* Integration of the XGBoost model
 * Data processing and preparation
 * Visualization and communication of results
 
@@ -82,3 +82,8 @@ Due to NDA restrictions, data and full implementation cannot be shared.
 * Improve model performance
 * Expand feature engineering
 * Automate pipeline further
+
+## Notes
+
+Due to NDA restrictions, the dataset and full implementation cannot be shared.  
+This repository focuses on the methodology, system design, and development process.
