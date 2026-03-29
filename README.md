@@ -63,7 +63,7 @@ I contributed to several key parts of the system:
 ## Pipeline & System Overview
 
 ### Machine Learning Pipeline
-![pipeline](images/pipeline.png)
+<img src="images/pipeline.png" width="400">
 
 ### Development Process
 ![Process](images/process.png)
