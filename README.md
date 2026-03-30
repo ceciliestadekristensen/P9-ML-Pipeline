@@ -75,8 +75,6 @@ I contributed to key parts of the system, including:
 
 The system demonstrated how machine learning can support data-driven decision-making.
 
-Due to NDA restrictions, data and full implementation cannot be shared.
-
 ## Future Work
 
 * Improve model performance
