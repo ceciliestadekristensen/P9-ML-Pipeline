@@ -1,64 +1,83 @@
-# Machine Learning Prediction Model (P9 Project)
+# Machine Learning Prediction Model
 
-A sequence-based machine learning system for intelligent data entry support in PLM systems.
+A sequence-based machine learning system developed to support intelligent data entry in PLM environments.
+
+---
 
 ## Overview
 
-This project was developed in collaboration with Bluestar PLM and focuses on automating data entry in engineering systems.
+This project was developed in collaboration with Bluestar PLM and focuses on how machine learning can support more efficient data entry in engineering-related systems.
 
-The system predicts relevant values based on existing data, reducing manual input and improving efficiency.
+The system predicts relevant values based on existing patterns in historical data, with the goal of reducing manual input and improving workflow efficiency.
+
+Because the project was developed in collaboration with an external company, the repository focuses on methodology, system structure and development approach rather than the full production implementation.
+
+---
 
 ## Problem Context
 
-Engineering systems often require large amounts of manual data entry. This project explores how machine learning can assist by identifying patterns in existing data and predicting relevant inputs.
+Engineering and PLM systems often require large amounts of manual and repetitive data entry.
 
-## Use Case
+This project explores how a machine learning-based solution can identify patterns in existing data and generate context-aware suggestions for the next relevant input.
 
-The system was designed to:
+---
 
-* Suggest relevant values based on previous inputs
-* Reduce manual data entry
-* Improve efficiency for engineers
+## Project Goal
+
+The goal of the system was to:
+
+- Suggest relevant values based on previous inputs
+- Reduce manual work in engineering systems
+- Improve efficiency through data-driven recommendations
+- Demonstrate how machine learning can support practical business workflows
+
+---
+
+## My Contribution
+
+In this group project, I contributed to several core parts of the system.
+
+### Data Preparation and Processing
+- Worked on preprocessing and structuring the data
+- Implemented label encoding for categorical variables
+- Supported feature preparation for model input
+
+### Machine Learning Pipeline
+- Contributed to the development of the prediction pipeline
+- Worked with XGBoost integration
+- Helped structure the sequence-based recommendation logic
+
+### Communication and Visualization
+- Contributed to visualization of results
+- Helped communicate findings and system value in a way that was understandable for external stakeholders
+
+---
+
+## Machine Learning Pipeline
+
+The project followed a structured pipeline:
+
+1. Data loading and filtering
+2. Data preprocessing
+3. Label encoding
+4. Feature transformation
+5. Model training using XGBoost
+6. Prediction and recommendation
+
+The final step uses sequence-based logic to recommend the next most relevant value based on previous selections.
+
+---
 
 ## Technologies
 
 * Python
 * XGBoost
-* Pandas & NumPy
-* Data preprocessing & feature engineering
+* Pandas
+* NumPy
+* Data preprocessing
+* Feature engineering
 
-## Machine Learning Pipeline
-
-The system follows a structured pipeline:
-
-1. Data loading and filtering
-2. Data preprocessing
-3. Label encoding of categorical variables
-4. Feature transformation
-5. Model training using XGBoost
-6. Prediction and recommendation
-
-The final step uses sequence-based logic to recommend the next most relevant input.
-
-## Model Approach
-
-The system uses a sequence-based prediction approach to recommend the next relevant input based on previous selections.
-
-This acts as a sequence-based suggestion engine for next-step prediction, enabling more intelligent and context-aware recommendations.
-
-## Development Process
-
-The project was developed using an iterative approach with continuous feedback from an external company.
-
-## My Contribution
-
-I contributed to key parts of the system, including:
-
-* Implementation of label encoding
-* Development of the machine learning pipeline
-* Integration of the XGBoost model
-* Data processing and preparation
-* Visualization and communication of results
+---
 
 ## Pipeline & System Overview
 
@@ -71,17 +90,35 @@ I contributed to key parts of the system, including:
 ### User Stories
 <img src="images/user_stories.png" width="400">
 
+---
+
 ## Results
 
-The system demonstrated how machine learning can support data-driven decision-making.
+The project demonstrated how machine learning can be applied to support structured data entry and more efficient workflows in a PLM-related context.
+
+It also showed how technical solutions can be developed iteratively in collaboration with an external company and adapted to real-world requirements.
+
+---
 
 ## Future Work
 
-* Improve model performance
-* Expand feature engineering
-* Automate pipeline further
+- Improve model performance
+- Expand feature engineering
+- Automate more of the pipeline
+- Explore broader integration in real workflows
+
+---
 
 ## Notes
 
-Due to NDA restrictions, the dataset and full implementation cannot be shared.  
-This repository focuses on the methodology, system design, and development process.
+Due to NDA restrictions, the dataset and full implementation cannot be shared.
+
+This repository focuses on methodology, architecture and development process rather than confidential data and company-specific details.
+
+---
+
+## Purpose
+
+The purpose of the project was to explore how machine learning and data preprocessing can be translated into a practical support tool for real-world engineering workflows.
+
+---
